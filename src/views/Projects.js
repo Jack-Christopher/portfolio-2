@@ -1,3 +1,4 @@
+import { Typography } from 'antd';
 
 export default function Projects(props) {
 
@@ -6,8 +7,10 @@ export default function Projects(props) {
     }
 
     return (
-        <div>
-            Projects Page
-        </div>
+        <div className="container">
+            <Typography.Title>
+                Projects
+            </Typography.Title>
+    </div>
     );
 }

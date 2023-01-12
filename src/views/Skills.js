@@ -1,3 +1,4 @@
+import { Typography } from 'antd';
 
 export default function Skills(props) {
 
@@ -6,8 +7,10 @@ export default function Skills(props) {
     }
 
     return (
-        <div>
-            Skills Page
+        <div className="container">
+            <Typography.Title>
+                Skills
+            </Typography.Title>
         </div>
     );
 }

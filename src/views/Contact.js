@@ -1,3 +1,4 @@
+import { Typography } from 'antd';
 
 export default function Contact(props) {
 
@@ -6,8 +7,10 @@ export default function Contact(props) {
     }
 
     return (
-        <div>
-            Contact Page
+        <div className="container">
+            <Typography.Title>
+                Contact Me
+            </Typography.Title>
         </div>
     );
 }
